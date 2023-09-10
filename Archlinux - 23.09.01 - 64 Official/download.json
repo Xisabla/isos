@@ -1,0 +1,13 @@
+{
+  "downloads": [
+    "https://mirror.archlinux.ikoula.com/iso/2023.09.01/archlinux-2023.09.01-x86_64.iso",
+    "https://mirror.archlinux.ikoula.com/iso/2023.09.01/b2sums.txt",
+    "https://mirror.archlinux.ikoula.com/iso/2023.09.01/sha256sums.txt",
+    "https://mirror.archlinux.ikoula.com/iso/2023.09.01/archlinux-2023.09.01-x86_64.iso.sig"
+  ],
+  "checks": [
+    "b2sum -c --ignore-missing ./b2sums.txt",
+    "sha256sum -c --ignore-missing ./sha256sums.txt",
+    "gpg --keyserver-options auto-key-retrieve --verify ./archlinux-2023.09.01-x86_64.iso.sig"
+  ]
+}

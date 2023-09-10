@@ -1,0 +1,12 @@
+{
+  "downloads": [
+    "https://download.fedoraproject.org/pub/fedora/linux/releases/38/Workstation/aarch64/images/Fedora-Workstation-38-1.6.aarch64.raw.xz",
+    "https://download.fedoraproject.org/pub/fedora/linux/releases/38/Server/aarch64/iso/Fedora-Server-dvd-aarch64-38-1.6.iso",
+    "https://ftp.lip6.fr/ftp/pub/linux/distributions/fedora/releases/38/Workstation/aarch64/iso/Fedora-Workstation-38-1.6-aarch64-CHECKSUM",
+    "https://mirror.in2p3.fr/pub/fedora/linux/releases/38/Server/aarch64/iso/Fedora-Server-38-1.6-aarch64-CHECKSUM"
+  ],
+  "checks": [
+    "gpg --keyserver-options auto-key-retrieve --verify ./Fedora-Workstation-38-1.6-aarch64-CHECKSUM",
+    "gpg --keyserver-options auto-key-retrieve --verify ./Fedora-Server-38-1.6-aarch64-CHECKSUM"
+  ]
+}

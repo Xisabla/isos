@@ -1,0 +1,8 @@
+{
+  "downloads": [
+    "https://raspi.debian.net/tested/20230612_raspi_4_bookworm.img.xz",
+    "https://raspi.debian.net/tested/20230612_raspi_4_bookworm.img.xz.sha256",
+    "https://raspi.debian.net/tested/20230612_raspi_4_bookworm.img.xz.sha256.asc"
+  ],
+  "checks": ["sha256sum -c ./20230612_raspi_4_bookworm.img.xz.sha256"]
+}

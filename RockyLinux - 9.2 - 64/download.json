@@ -1,0 +1,7 @@
+{
+  "downloads": [
+    "https://download.rockylinux.org/pub/rocky/9.2/isos/x86_64/Rocky-9.2-x86_64-minimal.iso",
+    "https://download.rockylinux.org/pub/rocky/9.2/isos/x86_64/Rocky-9.2-x86_64-minimal.iso.CHECKSUM"
+  ],
+  "checks": ["sha256sum -c ./Rocky-9.2-x86_64-minimal.iso.CHECKSUM"]
+}
